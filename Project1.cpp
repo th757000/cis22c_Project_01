@@ -21,7 +21,7 @@ using namespace std;
 
 
 // creating structure for the linked list, it can be imprted from a .h file later
-struct Node
+struct Apartment
 {
 	int id;
 	int rent;
@@ -39,7 +39,7 @@ struct student
 	int id;
 	int rent;
 
-struct  list
+struct Apartment_list
 {
 	Node* head;
 	Node*tail;

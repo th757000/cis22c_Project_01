@@ -73,10 +73,10 @@ int main(int argc, char *argv[])
 	
 	while (getline(ifs,my_line))
 	{
-		if (my_line != " ")
-		{
-			counter ++;
-			for (int i =0; i<
+			ifs >> int id >> string location >> int bedrooms >> string laundry>> int price>> std::ws;
+			apartmentList.pushback;
+				if(sruFile.eof())//
+					break;
 		}
 	}
 	ifs.close();
